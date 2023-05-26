@@ -5,11 +5,11 @@ function Product(ID, name, description, price, brand, sizes, quantity, images) {
     this.price = price;
     this.brand = brand;
     this.sizes = sizes;
-    this.activeSize = ""; // или передайте активный размер как аргумент конструктора
+    this.activeSize = ""; 
     this.quantity = quantity;
     this.date = new Date();
     this.reviews = [];
-    this.images = images || []; // или передайте изображения как аргумент конструктора
+    this.images = images || []; 
   
     this.addReview = function(review) {
         this.reviews.push(review);
